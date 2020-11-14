@@ -32,4 +32,4 @@ myMath.o: power.o basicMath.o myMath.h
 .PHONY: clean all
 
 clean:
-	rm -f *.o  mains maind
+	rm -f *.so *.a *.o mains maind
